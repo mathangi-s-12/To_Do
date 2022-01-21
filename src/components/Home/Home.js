@@ -30,7 +30,7 @@ const pushFilterSearchUrl = (filters) => {
   window.history.pushState(
     null,
     "",
-    `/?${queryString.stringify(
+    `${window.location.pathname}?${queryString.stringify(
       { ...filters },
       {
         skipEmptyString: true,
