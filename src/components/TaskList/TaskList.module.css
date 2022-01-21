@@ -1,0 +1,59 @@
+.taskList {
+  height: 100%;
+  width: 100%;
+}
+
+.taskRow {
+  align-items: center;
+  border-radius: 2px;
+  display: grid;
+  grid-template-columns: 5% 45% 5% 40% 5%;
+  width: 95%;
+}
+
+.taskRow:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.completed {
+  background-color: #006400;
+}
+
+.notCompleted {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.taskRow > div {
+  align-items: center;
+  display: flex;
+  height: 40px;
+  overflow: hidden;
+  padding-left: 5px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.completed > div {
+  text-decoration: line-through;
+}
+
+.circleCheckbox {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 20px !important;
+  margin-left: 10px;
+  width: 20px;
+}
+
+.completedCheck {
+  background-color: white;
+}
+
+.deleteIcon > svg {
+  cursor: pointer;
+  height: 25px;
+  margin-right: 5px;
+  width: 25px;
+}

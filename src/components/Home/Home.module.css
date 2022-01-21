@@ -1,0 +1,72 @@
+.home {
+  background-color: #18191a;
+  color: #ffffff;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.header {
+  align-self: center;
+  font-size: 3rem;
+  margin: 10px 0 30px 20px;
+}
+
+.searchInput {
+  align-self: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 50px;
+  color: #ffffff;
+  height: 50px;
+  margin-bottom: 30px;
+  outline: none;
+  padding: 5px 20px;
+  text-align: center;
+  width: 50%;
+}
+
+.filters {
+  margin-bottom: 30px;
+}
+
+.filterBlock:not(:last-child) {
+  margin-right: 20px;
+}
+
+.checkbox {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 2px;
+  height: 20px;
+  margin-right: 10px;
+  width: 20px;
+}
+
+.taskList {
+  flex: 1;
+  overflow: auto;
+  margin: 0 20px 30px 20px;
+}
+
+.addIcon {
+  background-color: #ffffff;
+  border-radius: 50%;
+  bottom: 20px;
+  cursor: pointer;
+  height: 50px;
+  position: absolute;
+  right: 20px;
+  width: 50px;
+}
+
+.addIcon > img {
+  height: 30px;
+  transform: translate(5%, 7%);
+  width: 30px;
+}
+
+.popupClass {
+  height: fit-content;
+  width: fit-content;
+}

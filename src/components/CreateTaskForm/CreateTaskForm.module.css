@@ -1,0 +1,59 @@
+.form {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 5px;
+  color: #ffffff;
+  height: 270px;
+  padding: 20px;
+  position: relative;
+  width: fit-content;
+}
+
+.header {
+  font-size: 2rem;
+  margin-top: 10px;
+}
+
+.closeForm {
+  cursor: pointer;
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
+
+.inputField {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  width: 100%;
+}
+
+.inputField > label {
+  margin-right: 10px;
+  text-align: left;
+}
+
+.inputField > input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  color: #ffffff;
+  outline: none;
+  padding: 5px 0;
+  width: 90%;
+}
+
+.inputField > input:focus {
+  border-bottom: none;
+}
+
+.submitBtn {
+  align-self: flex-end;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+  height: 30px;
+  padding: 5px;
+  outline: none;
+  width: fit-content;
+}
